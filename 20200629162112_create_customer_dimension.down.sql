@@ -1,1 +1,1 @@
-DROP table customer_dimension;
+drop table if exists customer_dimension;
