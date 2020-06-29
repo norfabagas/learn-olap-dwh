@@ -4,7 +4,7 @@ create table if not exists transaction_fact(
     cashier_session_dimension_id int8 null,
     store_dimension_id int8 null,
     transaction_payment_dimension_id int8 null,
-    tranasction_date timestamp,
+    transaction_date timestamp,
     payment_total int,
     amount_paid int,
     discount int,
