@@ -1,6 +1,8 @@
 create table if not exists transaction_payment_dimension (
     id bigserial primary key not null,
     payment_created_date timestamp,
-    payment_last_modified timestamp,
-    payment_type varchar(255)
+    payment_type varchar(255),
+    payment_number varchar(255),
+    payment_detail varchar(255),
+    holder_name varchar(255)
 );
