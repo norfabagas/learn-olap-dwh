@@ -5,6 +5,7 @@ create table if not exists transaction_fact(
     transaction_payment_dimension_id int8 null,
     date_dimension_id int8 null,
     time_dimension_id int8 null,
+    transaction_code varchar(255),
     payment_total int null,
     amount_paid int null,
     discount int null,

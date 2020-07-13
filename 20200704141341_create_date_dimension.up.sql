@@ -1,6 +1,7 @@
 create table if not exists date_dimension(
     id bigserial primary key,
-    full_date date,
+    transaction_code varchar(255),
+    full_date timestamp,
     current_year int,
     year_quartal int,
     week_in_month int,
@@ -9,9 +10,5 @@ create table if not exists date_dimension(
     day_in_week int,
     day_in_month int,
     day_in_year int,
-    is_weekend boolean,
-    is_holiday boolean,
-    holiday_name varchar(255),
-    last_date_of_month date,
-    last_date_of_year date
+    is_weekend boolean
 );

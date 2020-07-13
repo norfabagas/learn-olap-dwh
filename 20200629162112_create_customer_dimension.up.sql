@@ -1,5 +1,6 @@
 create table if not exists customer_dimension (
     id bigserial primary key not null,
+    transaction_code varchar(255),
     name varchar(255),
     email varchar(255),
     age int,
