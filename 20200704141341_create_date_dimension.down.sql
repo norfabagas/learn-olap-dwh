@@ -1,1 +1,1 @@
-drop table if exists date_dimension;
+drop table if exists date_dim;

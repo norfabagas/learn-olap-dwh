@@ -1,4 +1,4 @@
-create table if not exists date_dimension(
+create table if not exists date_dim(
     id bigserial primary key,
     transaction_code varchar(255),
     full_date timestamp,

@@ -1,1 +1,1 @@
-drop table if exists time_dimension;
+drop table if exists time_dim;

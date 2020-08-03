@@ -1,1 +1,1 @@
-drop table if exists cashier_session_dimension;
+drop table if exists cashier_session_dim;

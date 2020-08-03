@@ -1,4 +1,4 @@
-create table if not exists customer_dimension (
+create table if not exists customer_dim (
     id bigserial primary key not null,
     transaction_code varchar(255),
     name varchar(255),

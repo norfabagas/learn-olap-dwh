@@ -1,4 +1,4 @@
-create table if not exists cashier_session_dimension (
+create table if not exists cashier_session_dim (
     id bigserial primary key not null,
     transaction_code varchar(255),
     store_name varchar(255),

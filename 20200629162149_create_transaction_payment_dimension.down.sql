@@ -1,1 +1,1 @@
-drop table if exists transaction_payment_dimension;
+drop table if exists transaction_payment_dim;

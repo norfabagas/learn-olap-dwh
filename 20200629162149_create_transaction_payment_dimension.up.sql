@@ -1,4 +1,4 @@
-create table if not exists transaction_payment_dimension (
+create table if not exists transaction_payment_dim (
     id bigserial primary key not null,
     transaction_code varchar(255),
     payment_created_date timestamp,

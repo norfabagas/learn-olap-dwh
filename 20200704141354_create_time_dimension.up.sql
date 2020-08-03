@@ -1,4 +1,4 @@
-create table if not exists time_dimension(
+create table if not exists time_dim(
     id bigserial primary key not null,
     transaction_code varchar(255),
     transaction_time time,
